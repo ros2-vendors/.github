@@ -24,7 +24,8 @@ This repository contains the `ros2_vendors.repos` manifest, which can be used to
 
 ```
 mkdir ros2_ws && cd ros2_ws
-curl -O https://raw.githubusercontent.com/ros2/ros2/jazzy/ros2_vendors.repos
+mkdir src
+curl -O https://raw.githubusercontent.com/ros2-vendors/ros2_vendors/jazzy/ros2_vendors.repos
 vcs import src < ros2_vendors.repos
 ```
 
